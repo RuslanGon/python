@@ -1,8 +1,2 @@
-x=10
-y=33
-n=10
-
-print(id(x))
-print(id(n))
-print(x)
-
+s1= 3 + 3j
+print(type(s1))
