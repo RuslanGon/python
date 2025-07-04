@@ -1,4 +1,2 @@
-import math
-s1= 5
-b=2
-print(s1 * math.sin(b))
+age = input("Enter your age: ")
+print("Your age -",  int(age))
