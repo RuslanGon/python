@@ -1,2 +1,4 @@
-s1= 3 + 3j
-print(type(s1))
+import math
+s1= 5
+b=2
+print(s1 * math.sin(b))
