@@ -43,13 +43,27 @@
 # else:
 #     print('hello')
 
-a = int(input('number'))
-if a == 8 or a == 12:
-    print(a)
-elif a < 10:
-    pass
+# a = int(input('number'))
+# if a == 8 or a == 12:
+#     print(a)
+# elif a < 10:
+#     pass
         
-else:
-    print('hello')
+# else:
+#     print('hello')
+
+# a = int(input('Your number'))
+# if a < 20:
+#     number = a
+# else:
+#     number = a
+# print(number)    
+    
+    
+a = int(input('Your number'))
+x = a if 10 < a <100 else 'not number'
+print(x)
+    
+
 
 
