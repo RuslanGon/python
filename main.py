@@ -1,2 +1,10 @@
-age = input("Enter your age: ")
-print("Your age -",  int(age))
+x = int(input('Введите число: '))
+
+if x == 2:
+    print('Число равно двум')
+elif x > 0:
+    print('Число положительное')
+elif x == 0:
+    print('Число равно нулю')
+else:
+    print('Число отрицательное')
