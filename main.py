@@ -60,9 +60,40 @@
 # print(number)    
     
     
-a = int(input('Your number'))
-x = a if 10 < a <100 else 'not number'
-print(x)
+# a = int(input('Your number'))
+# x = a if 10 < a <100 else 'not number'
+# print(x)
+
+# print('1 - comedy')
+# print('2 - love')
+# print('3 - fantasy')
+
+# x = int(input("What genre? ")) 
+
+# if x == 1:
+#     print('You chose comedy')
+# elif x == 2:
+#     print('You chose love story')
+# elif x == 3:
+#     print('You chose fantasy')
+# else:
+#     print('Unknown genre')
+
+print('1 - comedy')
+print('2 - love')
+print('3 - fantasy')
+
+x = int(input("What genre? ")) 
+
+match x:
+    case 1:
+        print('You chose comedy')
+    case 2:
+        print('You chose love story')
+    case 3:
+        print('You chose fantasy')
+    case _:
+        print('Unknown genre') 
     
 
 
