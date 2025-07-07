@@ -34,11 +34,20 @@
 # if 10< a <20:
 #     print('helo')
 
-a = int(input('Enter Your Number'))
+# a = int(input('Enter Your Number'))
+# if a == 8 or a == 12:
+#     print(a)
+# elif a > 10 and a < 100:
+#     print(a,'big')
+        
+# else:
+#     print('hello')
+
+a = int(input('number'))
 if a == 8 or a == 12:
     print(a)
-elif a > 10 and a < 100:
-    print(a,'big')
+elif a < 10:
+    pass
         
 else:
     print('hello')
