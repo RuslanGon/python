@@ -17,18 +17,30 @@
 # else:
 #     print('You did not enter a name')
 
-a = False
-b = True
-if a:
-    if b:
-        print(1)
-    else:
-        print(2)
-else:
-    if b:
-        print(3)
-    else:
-        print(4)
+# a = False
+# b = True
+# if a:
+#     if b:
+#         print(1)
+#     else:
+#         print(2)
+# else:
+#     if b:
+#         print(3)
+#     else:
+#         print(4)
             
+# a = int(input('Enter your number'))
+# if 10< a <20:
+#     print('helo')
+
+a = int(input('Enter Your Number'))
+if a == 8 or a == 12:
+    print(a)
+elif a > 10 and a < 100:
+    print(a,'big')
+        
+else:
+    print('hello')
 
 
