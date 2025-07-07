@@ -1,10 +1,19 @@
-x = int(input('Введите число: '))
+# x = int(input('Введите число: '))
 
-if x == 2:
-    print('Число равно двум')
-elif x > 0:
-    print('Число положительное')
-elif x == 0:
-    print('Число равно нулю')
+# if x == 2:
+#     print('Число равно двум')
+# elif x > 0:
+#     print('Число положительное')
+# elif x == 0:
+#     print('Число равно нулю')
+# else:
+#     print('Число отрицательное')
+# ////////////////////////////////
+
+name = input("Enter name: ")
+
+if name.strip():  # .strip() удаляет пробелы и пустые строки
+    print(name)
 else:
-    print('Число отрицательное')
+    print('You did not enter a name')
+
