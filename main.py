@@ -10,10 +10,25 @@
 #     print('Число отрицательное')
 # ////////////////////////////////
 
-name = input("Enter name: ")
+# name = input("Enter name: ")
 
-if name.strip():  # .strip() удаляет пробелы и пустые строки
-    print(name)
+# if name.strip():  # .strip() удаляет пробелы и пустые строки
+#     print(name)
+# else:
+#     print('You did not enter a name')
+
+a = False
+b = True
+if a:
+    if b:
+        print(1)
+    else:
+        print(2)
 else:
-    print('You did not enter a name')
+    if b:
+        print(3)
+    else:
+        print(4)
+            
+
 
