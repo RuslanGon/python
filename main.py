@@ -103,7 +103,7 @@
 # lessons = int(input('What lesson now '))
 
 # match lessons:
-#     case 1:
+#     case 1 | 2:
 #         print("now Matematica") 
 #     case 2:
 #         print("now Fizika") 
@@ -118,7 +118,13 @@
 # if number % 2 == 0:
 #      print('number parne') 
 # else:
-#     print('nomber not parne')             
+#     print('nomber not parne')    
+
+x = 1
+while x <= 10:
+    if x % 2 == 0 and x % 3 == 0:
+        print(x)
+    x += 1
 
 
 
