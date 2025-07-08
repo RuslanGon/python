@@ -154,11 +154,25 @@
 #     else:
 #         print("good job")
 
-s = 0
-for i in range(10, 0, -1):
-    if i % 2 == 0:   
-        s += i     
-print("Сумма чётных чисел:", s)
+# s = 0
+# for i in range(10, 0, -1):
+#     if i % 2 == 0:   
+#         s += i     
+# print("Сумма чётных чисел:", s)
+
+# for i in range(1, 10):
+#     if i == 7:
+#         break
+#     else:
+#         print(i)
+
+# k = int(input("Введите число: "))
+# s = 0
+# for _ in range(k):
+#     number = int(input())
+#     if number % 6 == 0:
+#         s+= number
+# print(s)
 
 
 
