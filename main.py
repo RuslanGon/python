@@ -112,7 +112,13 @@
 #     case 4:
 #         print('not lessons')     
             
-            
+
+# number = int(input('Enter your number'))   
+
+# if number % 2 == 0:
+#      print('number parne') 
+# else:
+#     print('nomber not parne')             
 
 
 
