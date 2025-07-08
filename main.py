@@ -79,22 +79,40 @@
 # else:
 #     print('Unknown genre')
 
-print('1 - comedy')
-print('2 - love')
-print('3 - fantasy')
+# print('1 - comedy')
+# print('2 - love')
+# print('3 - fantasy')
 
-x = int(input("What genre? ")) 
+# x = int(input("What genre? ")) 
 
-match x:
-    case 1:
-        print('You chose comedy')
-    case 2:
-        print('You chose love story')
-    case 3:
-        print('You chose fantasy')
-    case _:
-        print('Unknown genre') 
+# match x:
+#     case 1:
+#         print('You chose comedy')
+#     case 2:
+#         print('You chose love story')
+#     case 3:
+#         print('You chose fantasy')
+#     case _:
+#         print('Unknown genre') 
     
+
+# print('1-Matematica')
+# print('2-Fizika')
+# print('3-Istiry')
+
+# lessons = int(input('What lesson now '))
+
+# match lessons:
+#     case 1:
+#         print("now Matematica") 
+#     case 2:
+#         print("now Fizika") 
+#     case 3:
+#         print("now Istory") 
+#     case 4:
+#         print('not lessons')     
+            
+            
 
 
 
