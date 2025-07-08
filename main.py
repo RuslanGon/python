@@ -142,6 +142,23 @@
 #     number //= 10
 # print(s)    
 
+# s = 'Hello word'
+# for i in s:
+#     print(i)
+
+# for i in range(10):
+#     if i % 3 == 0:
+#         print(i)
+#     elif i % 4:
+#         print(i)
+#     else:
+#         print("good job")
+
+s = 0
+for i in range(10, 0, -1):
+    if i % 2 == 0:   
+        s += i     
+print("Сумма чётных чисел:", s)
 
 
 
